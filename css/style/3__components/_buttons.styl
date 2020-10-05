@@ -1,0 +1,43 @@
+.btn
+	padding 15px 20px
+	display inline-block
+	width auto
+	text-align center
+	border-radius 50px
+	letter-spacing 1px
+	margin 16px auto
+	color var(--c-white)
+	// text-transform uppercase
+	font-weight bold
+	&-primary
+		border 1px solid var(--c-primary)
+		background-color var(--c-primary)
+		transition all .3s
+		color #fff
+		&:hover
+			background-color var(--c-white)
+			color var(--c-primary)
+	&-secondary
+		background-color transparent
+		border 1px solid var(--c-white)
+		margin 0 10px
+		margin-top 20px
+		text-transform uppercase
+		transition all .3s
+		&:hover
+			background-color var(--c-primary)
+			color #fff
+	&-fixed
+		position fixed
+		right 10px
+		bottom 0px
+		z-index 99
+		border-radius 50%
+		font-size 30px
+		width 60px
+		height 60px
+		display flex
+		align-items center
+		justify-content center
+		box-shadow 1px 1px 1px #ccc
+		

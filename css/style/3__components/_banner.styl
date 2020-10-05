@@ -1,0 +1,56 @@
+.banner
+	background-image url('../img/civil.jpg')
+	background-size cover
+	background-position top
+	height 680px
+	position relative
+	display flex
+	justify-content center
+	align-items center
+	flex-wrap wrap
+	@media screen and (max-width 768px)
+		height 80vh
+	&:before
+		background-color rgba(#000,.65)
+		content ''
+		width 100%
+		height 100%
+		position absolute
+		top 0
+		left 0
+		z-index 1
+	&__title
+		text-transform uppercase
+		width 100%
+		z-index 2
+		color var(--c-white)
+		margin-top 25px
+		font-size 30px
+		text-shadow 1px 1px 1px #222
+		font-weight 700
+		text-align center
+		line-height 60px
+		word-spacing 0
+		letter-spacing 0px
+		@media screen and (max-width 768px)
+			font-size 18px
+			line-height 1.5
+	&__item
+		z-index 2
+		position relative
+		top -90px
+		width 100%
+	&-container
+		z-index 2
+		text-align center
+		width 80%
+		padding-top 80px
+	&__img
+		background-color rgba(#fff,.95)
+		background-color transparent
+		border-radius 50%
+		display inline-block
+		width 300px
+		padding 0px
+		@media screen and (max-width 768px)
+			width 220px

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>JhonatanLlanos</title>
+  <title>CJ LLanos</title>
 
   <meta name="title" content="Jhonatan Llanos">
   <meta name="Description" content="Diseñador UI, Maquetador CSS, Ingeniero de Sistemas">
@@ -14,33 +14,57 @@
 	<meta name="author" content="Jhonatan Llanos">
 	<meta name="theme-color" content="#fff"/>
   
+  <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
   <header>
-    <h1>CJ Llanos</h1>
-    <nav>
-      <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Servicios</a></li>
-        <li><a href="#">Proyectos</a></li>
-        <li><a href="#">Galeria</a></li>
-        <li><a href="#">Contacto</a></li>
-      </ul>
-    </nav>
+    <div class="header">
+      <div class="header__logo">
+        <h1>CJ Llanos</h1>
+      </div>
+      
+      <span class="header__button-menu" id="btn-menu" onclick="myFunction()">
+        <svg class="icon " width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-list" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+        </svg>
+      </span>
+      <nav>
+        <ul class="menu">
+          <li><a class="menu__link" href="#">Inicio</a></li>
+          <li><a class="menu__link" href="#">Servicios</a></li>
+          <li><a class="menu__link" href="#">Proyectos</a></li>
+          <li><a class="menu__link" href="#">Galeria</a></li>
+          <li><a class="menu__link" href="#">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <main>
-    <h2>Servicios</h2>
-    <div class="cj-container">
-      <h2>Diseño y Creación de Paginas Web</h2>
-      <p>Diseñamos tu pagina web de acorde a tus necesidades</p>
-    </div>
-    <div class="cj-container">
-      <h2>Nuestros Proyectos</h2>
-    </div>
-    <div class="cj-container">
-      <h2>Soporte y Soluciones Informaticas</h2>
-      <p>Analizamos e investigamos para ofrecerte la mejor solución.</p>
-    </div>
+    <section>
+      <h2>Servicios</h2>
+      
+      <svg class="icon" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook" class="svg-inline--fa fa-facebook fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path></svg>
+      <div class="cj-container">
+        <h2>Diseño y Creación de Paginas Web</h2>
+        <p>Diseñamos tu pagina web de acorde a tus necesidades</p>
+      </div>
+      <div class="cj-container">
+        <h2>Nuestros Proyectos</h2>
+      </div>
+      <div class="cj-container">
+        <h2>Soporte y Soluciones Informaticas</h2>
+        <p>Analizamos e investigamos para ofrecerte la mejor solución.</p>
+      </div>
+    </section>
+    <section>
+      <h2>Proyectos</h2>
+    </section>
+    <section>
+      <h2>Galeria</h2>
+    </section>
+    <section>
+      <h2>Contacto</h2>
+    </section>
   </main>
   <footer>
     <h3>Todos los Derechos Reservados 2020 - &copy; CJ Llanos</h3>
