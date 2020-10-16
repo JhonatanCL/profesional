@@ -1,26 +1,26 @@
-// @font-face
-// 	src url(../fonts/segoe.ttf)
-// 	font-family 'seoge'
+@font-face
+	src url(../fonts/Mulish-Black.ttf)
+	font-family 'mblack'
 	
-// @font-face
-// 	src url(../fonts/segoe-clara.ttf)
-// 	font-family 'clara'
+@font-face
+	src url(../fonts/Mulish-BlackItalic.ttf)
+	font-family 'mblackitalic'
 
-// @font-face
-// 	src url(../fonts/segoe-negrita.ttf)
-// 	font-family 'negrita'
+@font-face
+	src url(../fonts/Mulish-Bold.ttf)
+	font-family 'mbold'
 	
-// @font-face
-// 	src url(../fonts/segoe-negra.ttf)
-// 	font-family 'negra'
+@font-face
+	src url(../fonts/Mulish-Light.ttf)
+	font-family 'mlight'
 	
-// @font-face
-// 	src url(../fonts/segoe-seminegrita.ttf)
-// 	font-family 'seminegrita'
+@font-face
+	src url(../fonts/Mulish-Medium.ttf)
+	font-family 'mulish'
 
-// @font-face
-// 	src url(../fonts/segoe-light.ttf)
-// 	font-family 'delgada'
+@font-face
+	src url(../fonts/Mulish-SemiBold.ttf)
+	font-family 'msemibold'
 
 *
 	scroll-behavior smooth
@@ -39,12 +39,16 @@ section
 	transition all 5s
 	width 100%
 	padding 65px 0
-	&:nth-child(even)
+	&:nth-child(odd)
 		background-color #f7f7f7
 
 header
-	background-color #F9F9FE
+	background-color #fff
+	// position fixed
+	// width 100%
+	z-index 99
+	box-shadow 0 2px 8px rgba(0,0,0,.07)
 
 body
-	font-family arial
+	font-family msemibold
 	// transition all 2s

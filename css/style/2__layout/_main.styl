@@ -7,11 +7,35 @@
 	margin-bottom 14px
 .title
 	width 100%
-	font-size 1.5em
+	font-size 2em
+	line-height 1.5
 	color var(--c-dark)
-	font-weight bold
+	font-family mblack
 	margin-bottom 32px
-	border-bottom 1px solid var(--c-primary)
+	border-bottom 2px solid var(--c-primary)
 	padding-bottom 30px
 	@media screen and (max-width 768px)
 		font-size 23px
+	&-sub
+		font-family mbold
+		font-size 1.3em
+		line-height 1.5
+.icon
+	width 18px
+	height 18px
+	margin-right 8px
+.img
+	text-align center
+	max-width 400px
+.img-pro
+	mix-blend-mode luminosity
+	opacity .5
+	transition all .3s
+	display flex
+	align-items center
+	// background-color green
+	height 80px
+	padding 20px
+	&:hover
+		opacity 1
+		mix-blend-mode normal

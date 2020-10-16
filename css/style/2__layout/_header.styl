@@ -1,13 +1,10 @@
 .header
 	display flex
-	padding 5px 10px
-	// max-width 1200px
+	padding 10px 0px
 	margin auto
 	justify-content space-between
 	align-items center
-	// position absolute
 	left 50%
-	max-width 1200px
 	z-index 99
 	&__logo
 		color var(--c-primary)
@@ -38,14 +35,15 @@
 				color var(--c-white)
 				font-size 24px
 	&-secundario
-		background-color #595959
+		background-color #080863
+		background-color #727376
+		padding 10px
 		a
 			color #fff
-.icon
-	transition all .3s
-	width 60px
-	height 60px
-	&:hover
-		background-color green
-		cursor pointer
-		color #fff
+			font-size 14px
+			transition all .3s
+			&:hover
+				color var(--c-primary)
+	&-item
+		display flex
+		align-items center
