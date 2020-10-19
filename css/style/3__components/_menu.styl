@@ -13,6 +13,7 @@
 		padding 10px 20px
 		transition left .5s
 		overflow auto
+		box-shadow 0 4px 6px #ccc
 		&.active
 			left 0
 	&__img
@@ -26,11 +27,13 @@
 			height 150px
 			margin 20px auto
 	&-icons
+		position absolute
+		bottom 30px
 		flex-wrap wrap
 		margin-top 16px
 		border-top 1px solid var(--c-primary)
 		display flex
-		width 100%
+		width 240px
 		justify-content space-around
 	&__icon
 		color var(--c-text)
@@ -40,6 +43,7 @@
 		&-title
 			width 100%
 			margin 20px 0
+			margin-bottom 25px
 	&__link
 		display block
 		padding 15px 20px
