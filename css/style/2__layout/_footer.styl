@@ -1,35 +1,53 @@
 .footer
 	background-color #222
 	color #fff
-	text-align center
-	font-size 15px
-	letter-spacing 2px
+	letter-spacing 1px
 	line-height 1.5
-	padding 10px 0
-	&__content
-		height 250px
-		@media screen and (max-width 768px)
-			height auto
 	&__copy
 		border-top 1px solid #ccc
 		display block
 		padding 10px
+		font-family mlight
+		font-size 13px
+		text-align center
 	&__item
 		text-align left
-		padding 0 20px
-		letter-spacing 1px
+		padding 10px 0
 		display flex
+		align-items center
+		font-size 16px
+		color var(--c-white)
+		transition all .3s
 		span
-			color var(--c-primary)
+			
 			margin-left 10px
+			font-family xlight
 		a
 			display block
-			color var(--c-white)
+			// color var(--c-white)
 			margin 10px 0
 		p
-			font-size 14px
 			color var(--c-white)
+		.icon
+			color var(--c-primary)
+		&:hover
+			color var(--c-primary)
+	&__icon
+		color #fff
+		font-size 24px
+		text-align center
+		margin 16px
+		transition all .3s
+		&:hover
+			color var(--c-primary)
+		svg
+			width 32px
+			height 32px
 	&__title
-		margin 0px 0
-		font-weight bold
-		font-size 18px
+		font-size 24px
+		// text-align center
+		font-family mulish
+		padding 10px 0
+		padding-bottom 20px
+		margin-bottom 20px
+		border-bottom 1px solid var(--c-primary)
